@@ -3,14 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import {
-  LayoutDashboard,
-  Upload,
-  FileText,
-  Settings,
-  Activity,
-  Plus,
-} from "lucide-react";
+import { LayoutDashboard, Upload, FileText, Settings, Plus } from "lucide-react";
 
 interface NavItem {
   title: string;

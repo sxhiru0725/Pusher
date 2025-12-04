@@ -13,9 +13,8 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { LogOut, Settings, LayoutDashboard, User } from "lucide-react";
+import { LogOut, Settings, LayoutDashboard } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
-import { cn } from "@/lib/utils";
 
 async function fetchUser() {
   const response = await fetch("/api/github/me");

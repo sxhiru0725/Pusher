@@ -2,16 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { PageShell } from "@/components/layout/page-shell";
-import {
-  Upload,
-  GraduationCap,
-  Activity,
-  FileText,
-  ArrowRight,
-  CheckCircle2,
-  GitBranch,
-  Zap,
-} from "lucide-react";
+import { Upload, GraduationCap, Activity, FileText, ArrowRight, CheckCircle2 } from "lucide-react";
 
 export default function Home() {
   return (

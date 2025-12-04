@@ -27,9 +27,9 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { RepoHealthBadge } from "./repo-health-badge";
-import { ExternalLink, GitBranch, AlertCircle, Activity, Search, FolderX, Plus } from "lucide-react";
+import { ExternalLink, Activity, Search, FolderX, Plus } from "lucide-react";
 import type { Repo } from "@/data/mockRepos";
 import Link from "next/link";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -174,7 +174,7 @@ export function RepoList({ repos }: RepoListProps) {
                   </TableRow>
                 </TableHeader>
                 <TableBody>
-                  {filteredRepos.map((repo, index) => {
+                  {filteredRepos.map((repo) => {
                     const fullName = getFullName(repo);
                     return (
                       <TableRow

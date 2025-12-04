@@ -28,7 +28,6 @@ import {
 } from "@/components/ui/select";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useToast } from "@/hooks/use-toast";
 
 interface FileNode {
@@ -41,7 +40,6 @@ interface FileNode {
 }
 
 export default function Drop2RepoPage() {
-  const router = useRouter();
   const { toast } = useToast();
   const [files, setFiles] = useState<FileNode[]>([]);
   const [expandedFolders, setExpandedFolders] = useState<Set<string>>(new Set());
