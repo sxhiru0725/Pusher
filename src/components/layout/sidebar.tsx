@@ -59,7 +59,7 @@ export function Sidebar({ className }: SidebarProps) {
             <Upload className="h-4 w-4" />
           </div>
           <span className="text-lg font-semibold tracking-tight">
-            Drop2Git Hub
+            Pusher
           </span>
         </Link>
       </div>

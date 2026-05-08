@@ -11,7 +11,7 @@ export default function Home() {
       <section className="flex flex-col items-center justify-center text-center space-y-8 py-16 md:py-24 lg:py-32">
         <div className="space-y-4">
           <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl bg-gradient-to-b from-foreground to-foreground/60 bg-clip-text text-transparent">
-            Drop2Git Hub
+            Pusher
           </h1>
           <p className="max-w-2xl mx-auto text-xl text-muted-foreground sm:text-2xl md:text-3xl font-light">
             Connect GitHub. Drag & drop projects. Level up your repos.
@@ -173,7 +173,7 @@ export default function Home() {
           Ready to get started?
         </h2>
         <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-          Join developers who are already using Drop2Git Hub to streamline their
+          Join developers who are already using Pusher to streamline their
           workflow.
         </p>
         <Button size="lg" className="h-12 px-8 text-base" asChild>

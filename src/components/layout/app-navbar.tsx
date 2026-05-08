@@ -67,7 +67,7 @@ export function AppNavbar() {
             </svg>
           </div>
           <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
-            Drop2Git Hub
+            Pusher
           </span>
         </Link>
         <div className="flex items-center space-x-2">

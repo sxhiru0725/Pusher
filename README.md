@@ -1,41 +1,116 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pusher
 
-## Getting Started
+Pusher is a Next.js web application designed to help developers manage GitHub projects more easily. It provides a clean dashboard for viewing repositories, checking repository health, creating new repositories, and improving README documentation.
 
-First, run the development server:
+The project focuses on making GitHub project management faster and more organised by bringing useful repository tools into one simple interface.
 
-```bash
+## Project Overview
+
+Pusher is built as a developer productivity dashboard. It allows users to connect with GitHub, view repository information, create new repositories, check the quality of existing repositories, and use a README helper to improve project documentation.
+
+This project was created to practise full-stack web development concepts using Next.js, TypeScript, API routes, reusable components, and dashboard-based user interface design.
+
+## Features
+
+- GitHub authentication
+- Dashboard interface
+- Repository list view
+- Repository health checker
+- New repository creation
+- README helper page
+- Drop2Repo feature
+- Settings page
+- Responsive user interface
+- Reusable UI components
+- Clean and modern layout
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- GitHub API
+- React Query
+- ESLint
+- Prettier
+
+## Folder Structure
+
+```text
+Pusher/
+├── app/
+├── components/
+├── lib/
+├── public/
+├── styles/
+├── package.json
+├── tsconfig.json
+├── next.config.js
+└── README.md
+Installation
+
+Clone the repository:
+
+git clone https://github.com/sxhiru0725/Pusher.git
+
+Go into the project folder:
+
+cd Pusher
+
+Install dependencies:
+
+npm install
+Environment Variables
+
+Create a .env.local file in the root folder and add the required environment variables.
+
+Example:
+
+GITHUB_CLIENT_ID=your_github_client_id
+GITHUB_CLIENT_SECRET=your_github_client_secret
+NEXTAUTH_SECRET=your_nextauth_secret
+NEXTAUTH_URL=http://localhost:3000
+
+Do not upload your real .env or .env.local file to GitHub.
+
+Running the Project
+
+Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open the app in your browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
+Build for Production
+npm run build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Start the production build:
 
-## Learn More
+npm start
+Purpose of the Project
 
-To learn more about Next.js, take a look at the following resources:
+The main purpose of this project is to create a useful developer tool while improving skills in:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js application development
+TypeScript
+API integration
+GitHub API usage
+Authentication
+Dashboard UI design
+Component-based development
+Project documentation
+Future Improvements
+Add more detailed repository analytics
+Improve README generation with AI support
+Add repository issue tracking
+Add commit activity insights
+Add user profile statistics
+Improve error handling and loading states
+Add more customisation options for users
+Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Developed by Sahiru Imadith.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Drop2Git-Hub
-Drop2Git Hub is a modern web application built using Next.js, providing a seamless and intuitive platform for managing GitHub repositories through powerful features such as drag-and-drop uploads, automated README generation, and enhanced repository insights.
->>>>>>> f132e1f4250653db2cc12f707deb2c8988312de4
+GitHub: sxhiru0725
