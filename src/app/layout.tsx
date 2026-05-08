@@ -12,7 +12,7 @@ const geistSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Drop2Git Hub",
+  title: "Pusher",
   description: "Connect GitHub. Drag & drop projects. Level up your repos.",
 };
 
